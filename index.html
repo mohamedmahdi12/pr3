@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Mohamed Mahdi</title>
+   
 </head>
 <body>
 
@@ -21,6 +22,7 @@
 
 
     <section class="main">
+      
         <div>
             <h2>Hello, I'm Mohamed<br><span>Full-Stack Develober</span></h2>
             <h3> Do Your Best Website</h3>
@@ -32,6 +34,26 @@
                 
             </div>
         </div>
+        
+        <form style="font-style:italic bold ;">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="error-msg" class="error-message"></p>
+            </div>
+        
+            <script src="file.js"></script>
+        </form>
     </section>
 
     <section class="cards" id="services">
